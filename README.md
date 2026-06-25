@@ -5,13 +5,17 @@
 
 <!-- Simulated Command Line Typing Animation -->
 <a href="https://portfolio-website-nine-beta-40.vercel.app">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=2F80ED&center=true&vCenter=true&width=800&lines=%3E_++Hello%2C+I'm+Dihas+Sathnindu;%3E_++Software+Engineer+%40+IFS;%3E_++Founder+%40+DarvinCode;%3E_++Building+Enterprise-Grade+Solutions" alt="Terminal Typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=2F80ED&center=true&vCenter=true&width=800&lines=%3E_++Hello%2C+I'm+Dihas+Sathnindu;%3E_++First+Class+Computer+Science+Graduate;%3E_++ex+Software+Engineer+Intern+%40+IFS;%3E_++Founder+%40+DarvinCode;%3E_++Building+Enterprise-Grade+Solutions" alt="Terminal Typing" />
 </a>
 
 <br>
+
 <p><b>Software Engineer & Full-Stack Architect</b> bridging high-performance backend systems with sleek frontend experiences.</p>
 
+<p><i>Open to Software Engineer roles · Backend · PL/SQL · Full-Stack</i></p>
+
 <!-- Badges -->
+
 [![Portfolio](https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-website-nine-beta-40.vercel.app)
 [![Email](https://img.shields.io/badge/Email-000?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dihas.sathnindu@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dihas-sathnindu)
@@ -40,14 +44,15 @@
       <h3>🚀 Current Status</h3>
       <br>
       <ul>
-        <li>🏢 <b>Former SWE Intern:</b> Enterprise architecture at IFS.</li>
+        <li>🎓 <b>First Class CS Graduate:</b> University of Westminster / IIT.</li>
+        <li>🏢 <b>ex SWE Intern:</b> Enterprise ERP work at IFS.</li>
         <li>🌐 <b>Founder:</b> Scaling DarvinCode agency solutions.</li>
-        <li>🧠 <b>Researching:</b> Multimodal deep learning for healthcare.</li>
-        <li>🎓 <b>Alumni:</b> First Class CS Grad, Uni of Westminster.</li>
+        <li>🧠 <b>Built:</b> Multimodal sepsis prediction model (AUROC 0.93).</li>
+        <li>💼 <b>Open to:</b> Software Engineer roles (Backend / Full-Stack).</li>
       </ul>
     </td>
   </tr>
-  
+
   <!-- ROW 2 -->
   <tr>
     <td width="50%" valign="top">
