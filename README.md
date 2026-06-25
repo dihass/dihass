@@ -64,18 +64,24 @@ const dihas: Engineer = {
   <tr>
     <td valign="top"><b>Languages</b></td>
     <td>
-      <img src="https://skillicons.dev/icons?i=java,python,ts,js,swift&perline=8" height="36" />
+      <img src="https://skillicons.dev/icons?i=java,python,ts,js,cs,swift&perline=8" height="36" />
       <img src="https://img.shields.io/badge/PL%2FSQL-c3704c?style=flat-square&logo=oracle&logoColor=white" height="24" />
       <img src="https://img.shields.io/badge/SQL-2F80ED?style=flat-square&logo=postgresql&logoColor=white" height="24" />
     </td>
   </tr>
   <tr>
     <td valign="top"><b>Backend & Data</b></td>
-    <td><img src="https://skillicons.dev/icons?i=nodejs,express,oracle,postgres,mongodb,redis&perline=8" height="36" /></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=dotnet,nodejs,express,oracle,postgres,mongodb,redis&perline=8" height="36" />
+      <img src="https://img.shields.io/badge/SignalR-0a0e16?style=flat-square&logo=dotnet&logoColor=512BD4" height="24" />
+    </td>
   </tr>
   <tr>
     <td valign="top"><b>Frontend</b></td>
-    <td><img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,swift&perline=8" height="36" /></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,swift&perline=8" height="36" />
+      <img src="https://img.shields.io/badge/Framer_Motion-0a0e16?style=flat-square&logo=framer&logoColor=white" height="24" />
+    </td>
   </tr>
   <tr>
     <td valign="top"><b>AI / ML</b></td>
@@ -134,6 +140,23 @@ const dihas: Engineer = {
         <img src="https://img.shields.io/badge/Leaflet-0a0e16?style=flat-square&logo=leaflet&logoColor=199900" />
       </p>
     </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🃏 OmiGame</h3>
+      <p>Real-time multiplayer Sri Lankan card game. <b>ASP.NET Core</b> backend with <b>SignalR WebSockets</b>, Clean Architecture (Domain / Application / Infrastructure), Redis session state, JWT auth, and Docker. React 19 + Framer Motion frontend deployed on Vercel.</p>
+      <p>
+        <img src="https://img.shields.io/badge/C%23%20%2F%20.NET-0a0e16?style=flat-square&logo=dotnet&logoColor=512BD4" />
+        <img src="https://img.shields.io/badge/SignalR-0a0e16?style=flat-square&logo=dotnet&logoColor=512BD4" />
+        <img src="https://img.shields.io/badge/React_19-0a0e16?style=flat-square&logo=react&logoColor=56CCF2" />
+        <img src="https://img.shields.io/badge/TypeScript-0a0e16?style=flat-square&logo=typescript&logoColor=3178C6" />
+        <img src="https://img.shields.io/badge/Redis-0a0e16?style=flat-square&logo=redis&logoColor=DC382D" />
+        <img src="https://img.shields.io/badge/Docker-0a0e16?style=flat-square&logo=docker&logoColor=2496ED" />
+      </p>
+      <a href="https://github.com/dihass/OmiGame"><img src="https://img.shields.io/badge/Source-0a0e16?style=for-the-badge&logo=github&logoColor=white" /></a>
+      <a href="https://omicardgame.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-2F80ED?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+    </td>
+    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
