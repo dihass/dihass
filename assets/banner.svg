@@ -1,110 +1,95 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="Dihas Sathnindu - Software Engineer">
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" role="img" aria-label="Dihas Sathnindu - Software Engineer">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0a0e16"/>
-      <stop offset="1" stop-color="#11161f"/>
+      <stop offset="0" stop-color="#1c1714"/>
+      <stop offset="1" stop-color="#13100d"/>
     </linearGradient>
-    <linearGradient id="name" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#56CCF2"/>
-      <stop offset="0.55" stop-color="#2F80ED"/>
-      <stop offset="1" stop-color="#c3704c"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#2F80ED"/>
-      <stop offset="1" stop-color="#c3704c"/>
-    </linearGradient>
-    <radialGradient id="spot" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#2F80ED" stop-opacity="0.20"/>
-      <stop offset="1" stop-color="#2F80ED" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
-      <path d="M38 0H0V38" fill="none" stroke="#1b2433" stroke-width="1"/>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.1" fill="#f9f5ef" opacity="0.035"/>
     </pattern>
-    <clipPath id="type">
-      <rect x="232" y="56" width="0" height="24">
-        <animate attributeName="width" values="0;245;245;0" keyTimes="0;0.45;0.9;1" dur="4.5s" repeatCount="indefinite"/>
-      </rect>
-    </clipPath>
+    <path id="spark" d="M0 -12 C0 -5.4 -5.4 0 -12 0 C-5.4 0 0 5.4 0 12 C0 5.4 5.4 0 12 0 C5.4 0 0 -5.4 0 -12 Z"/>
+    <g id="ticker">
+      <text x="0" y="0" font-family="'Courier New', monospace" font-size="14" font-weight="700" letter-spacing="1">
+        <tspan fill="#bdb0a0">REACT</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">NEXT.JS</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">NODE.JS</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">TYPESCRIPT</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">C# / .NET</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">PYTHON</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">SWIFT</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">PYTORCH</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">PL/SQL</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">POSTGRESQL</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">REDIS</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">DOCKER</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">JAVA</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">SIGNALR</tspan><tspan fill="#9fead3"> ◦ </tspan>
+      </text>
+    </g>
   </defs>
 
-  <!-- base -->
+  <!-- dark walnut paper -->
   <rect width="1200" height="300" fill="url(#bg)"/>
-  <rect width="1200" height="300" fill="url(#grid)" opacity="0.55"/>
+  <rect width="1200" height="300" fill="url(#dots)"/>
 
-  <!-- drifting spotlight -->
-  <ellipse cx="300" cy="150" rx="520" ry="300" fill="url(#spot)">
-    <animate attributeName="cx" values="200;1000;200" dur="14s" repeatCount="indefinite"/>
-  </ellipse>
-
-  <!-- scan line -->
-  <rect x="0" y="0" width="1200" height="2" fill="#2F80ED" opacity="0.14">
-    <animate attributeName="y" values="-4;304;-4" dur="9s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- floating particles -->
-  <g>
-    <circle cx="150" cy="300" r="2" fill="#2F80ED" opacity="0.7"><animate attributeName="cy" values="310;-10" dur="9s" repeatCount="indefinite"/></circle>
-    <circle cx="380" cy="300" r="1.6" fill="#56CCF2" opacity="0.6"><animate attributeName="cy" values="310;-10" dur="11s" begin="2s" repeatCount="indefinite"/></circle>
-    <circle cx="640" cy="300" r="2.2" fill="#c3704c" opacity="0.6"><animate attributeName="cy" values="310;-10" dur="10s" begin="4s" repeatCount="indefinite"/></circle>
-    <circle cx="860" cy="300" r="1.5" fill="#2F80ED" opacity="0.6"><animate attributeName="cy" values="310;-10" dur="12s" begin="1s" repeatCount="indefinite"/></circle>
-    <circle cx="1120" cy="300" r="2" fill="#56CCF2" opacity="0.5"><animate attributeName="cy" values="310;-10" dur="8.5s" begin="3s" repeatCount="indefinite"/></circle>
+  <!-- window chrome header -->
+  <rect x="0" y="0" width="1200" height="42" fill="#261f1b"/>
+  <line x1="0" y1="42" x2="1200" y2="42" stroke="#3a322c" stroke-width="1.5"/>
+  <circle cx="32" cy="21" r="6" fill="#ff5f57"/>
+  <circle cx="54" cy="21" r="6" fill="#febc2e"/>
+  <circle cx="76" cy="21" r="6" fill="#28c840"/>
+  <text x="104" y="26" font-family="'Courier New', monospace" font-size="13" fill="#8a7d72">dihas-sathnindu.tsx</text>
+  <g transform="translate(1018,21)">
+    <circle cx="0" cy="0" r="4" fill="#28c840"><animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/></circle>
+    <text x="12" y="4.5" font-family="'Courier New', monospace" font-size="12" font-weight="700" letter-spacing="1.5" fill="#9fead3">AVAILABLE FOR WORK</text>
   </g>
 
-  <!-- rotating orbit decoration (right) -->
-  <g transform="translate(1015,150)" opacity="0.85">
-    <g>
-      <circle r="74" fill="none" stroke="#c3704c" stroke-width="1.4" stroke-dasharray="6 10" opacity="0.45"/>
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/>
-    </g>
-    <g>
-      <circle r="50" fill="none" stroke="#2F80ED" stroke-width="1.4" stroke-dasharray="4 8" opacity="0.6"/>
-      <circle cx="50" cy="0" r="3.5" fill="#56CCF2"/>
-      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="16s" repeatCount="indefinite"/>
-    </g>
-    <circle r="6" fill="#c3704c"/>
-    <circle r="6" fill="none" stroke="#2F80ED" stroke-width="1.5"/>
-  </g>
-
-  <!-- terminal prompt line -->
-  <text x="70" y="74" font-size="16" font-family="'Fira Code', monospace">
-    <tspan fill="#56CCF2">dihas</tspan><tspan fill="#6e7681">@</tspan><tspan fill="#2F80ED">github</tspan><tspan fill="#6e7681">:</tspan><tspan fill="#c3704c">~</tspan><tspan fill="#6e7681">$</tspan>
-  </text>
-  <g clip-path="url(#type)">
-    <text x="232" y="74" font-size="16" font-family="'Fira Code', monospace" fill="#c9d1d9">whoami &amp;&amp; cat skills.md</text>
-  </g>
-  <rect y="60" width="9" height="16" fill="#2F80ED">
-    <animate attributeName="x" values="234;479;479;234" keyTimes="0;0.45;0.9;1" dur="4.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-  </rect>
+  <!-- kicker -->
+  <text x="70" y="84" font-family="'Courier New', monospace" font-size="13" font-weight="700" letter-spacing="4" fill="#9fead3">HELLO, I'M A  →</text>
 
   <!-- name -->
-  <text x="68" y="180" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="68" letter-spacing="2" fill="url(#name)" filter="url(#glow)">DIHAS SATHNINDU</text>
+  <text x="66" y="152" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="58" fill="#f9f5ef" letter-spacing="-1">Dihas Sathnindu<tspan fill="#9fead3">.</tspan></text>
 
-  <!-- role -->
-  <text x="71" y="218" font-family="'Fira Code', monospace" font-size="18" letter-spacing="0.5" fill="#c9d1d9">Software Engineer &#183; Backend &#183; PL/SQL &#183; AI Research</text>
+  <!-- role line -->
+  <text x="71" y="186" font-family="'Courier New', monospace" font-size="14" font-weight="700" letter-spacing="3">
+    <tspan fill="#bdb0a0">SOFTWARE ENGINEER</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">BACKEND</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">PL/SQL</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">AI RESEARCH</tspan>
+  </text>
 
-  <!-- animated accent underline -->
-  <rect x="71" y="234" width="0" height="4" rx="2" fill="url(#accent)">
-    <animate attributeName="width" values="0;470" dur="1.6s" begin="0.3s" fill="freeze"/>
-  </rect>
-
-  <!-- status chips -->
-  <g font-family="'Fira Code', monospace" font-size="12.5">
-    <g transform="translate(71,258)">
-      <rect width="190" height="26" rx="13" fill="#2F80ED" fill-opacity="0.12" stroke="#2F80ED" stroke-opacity="0.4"/>
-      <text x="16" y="17" fill="#7fb3ff">First Class CS Graduate</text>
+  <!-- sticker chips -->
+  <g font-family="'Courier New', monospace" font-size="12" font-weight="700" letter-spacing="1">
+    <g transform="translate(71,202) rotate(-3)">
+      <rect width="118" height="26" rx="6" fill="#f9c840"/>
+      <text x="14" y="17.5" fill="#7a4800">FIRST CLASS</text>
     </g>
-    <g transform="translate(273,258)">
-      <rect width="92" height="26" rx="13" fill="#c3704c" fill-opacity="0.14" stroke="#c3704c" stroke-opacity="0.45"/>
-      <text x="16" y="17" fill="#e0a07f">ex-IFS</text>
+    <g transform="translate(200,202) rotate(2)">
+      <rect width="74" height="26" rx="6" fill="#ffd0bc"/>
+      <text x="14" y="17.5" fill="#8b3010">ex-IFS</text>
     </g>
-    <g transform="translate(377,258)">
-      <rect width="200" height="26" rx="13" fill="#2F80ED" fill-opacity="0.12" stroke="#2F80ED" stroke-opacity="0.4"/>
-      <text x="16" y="17" fill="#7fb3ff">Founder @ DarvinCode</text>
+    <g transform="translate(286,202) rotate(-1.5)">
+      <rect width="184" height="26" rx="6" fill="#dce4ff"/>
+      <text x="14" y="17.5" fill="#3440c0">FOUNDER @ DARVINCODE</text>
+    </g>
+    <g transform="translate(482,202) rotate(1.5)">
+      <rect width="120" height="26" rx="6" fill="#9fead3"/>
+      <text x="14" y="17.5" fill="#0d4a38">COLOMBO, LK</text>
+    </g>
+  </g>
+
+  <!-- layered mint sparkle (right) -->
+  <g transform="translate(1058,148)">
+    <g>
+      <use xlink:href="#spark" fill="#0d7f60" transform="scale(3.1)" opacity="0.5"/>
+      <use xlink:href="#spark" fill="#9fead3" transform="scale(2.3)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="30s" repeatCount="indefinite"/>
+    </g>
+  </g>
+  <g transform="translate(1148,96)">
+    <use xlink:href="#spark" fill="#9fead3" transform="scale(0.85)">
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.4s" repeatCount="indefinite"/>
+    </use>
+  </g>
+  <g transform="translate(980,196)">
+    <use xlink:href="#spark" fill="#9fead3" transform="scale(0.7)">
+      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.1s" repeatCount="indefinite"/>
+    </use>
+  </g>
+
+  <!-- hairline -->
+  <line x1="0" y1="248" x2="1200" y2="248" stroke="#3a322c" stroke-width="1.5"/>
+
+  <!-- marquee (offset=1300 to cover the longer ticker) -->
+  <g transform="translate(0,278)">
+    <g>
+      <use xlink:href="#ticker" x="0"/>
+      <use xlink:href="#ticker" x="1300"/>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1300 0" dur="32s" repeatCount="indefinite"/>
     </g>
   </g>
 </svg>
