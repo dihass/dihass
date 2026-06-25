@@ -1,15 +1,15 @@
 <!--
-  ╔══════════════════════════════════════════════════════════════╗
-  ║  Dihas Sathnindu · GitHub Profile README                     ║
-  ║  Banner lives at: assets/banner.svg (commit it to this repo) ║
-  ╚══════════════════════════════════════════════════════════════╝
+  ────────────────────────────────────────────────────────────────
+  │  Dihas Sathnindu · GitHub Profile README                     │
+  │  Banner lives at: assets/banner.svg (commit it to this repo) │
+  ────────────────────────────────────────────────────────────────
 -->
 
 <!-- ========================= HERO ========================= -->
 <div align="center">
 
 <a href="https://portfolio-website-nine-beta-40.vercel.app">
-  <img src="https://raw.githubusercontent.com/dihass/dihass/main/assets/banner.svg" width="100%" alt="Dihas Sathnindu — Software Engineer" />
+  <img src="https://raw.githubusercontent.com/dihass/dihass/main/assets/banner.svg" width="100%" alt="Dihas Sathnindu – Software Engineer" />
 </a>
 
 <br><br>
@@ -46,9 +46,9 @@
 const dihas: Engineer = {
   role:        "Software Engineer",
   focus:       ["Backend", "PL/SQL", "ERP Platforms", "Full-Stack"],
-  education:   "First Class BEng (Hons) Computer Science — Westminster / IIT",
+  education:   "First Class BEng (Hons) Computer Science – Westminster / IIT",
   experience:  "ex Software Engineer Intern @ IFS (Marble framework, Oracle PL/SQL)",
-  building:    "DarvinCode — web & software studio for hospitality businesses",
+  building:    "DarvinCode – web & software studio for hospitality businesses",
   research:    "Multimodal deep learning for sepsis prediction (AUROC 0.93)",
   philosophy:  "Take ownership, ship quality, share what you learn",
   status:      "Applying for SWE roles · always shipping",
@@ -90,7 +90,7 @@ const dihas: Engineer = {
 <br>
 
 <!-- ========================= FEATURED BUILDS ========================= -->
-<h2>🚀 Featured Builds</h2>
+<h2>🔨 Featured Builds</h2>
 
 <!-- public repos: live pin cards -->
 <table>
