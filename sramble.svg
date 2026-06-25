@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="100">
+  <style>
+    .scramble {
+      font-family: 'Fira Code', monospace;
+      font-size: 32px;
+      font-weight: bold;
+      fill: #000;
+      animation: glitch 2s linear infinite;
+    }
+    @media (prefers-color-scheme: dark) { .scramble { fill: #fff; } }
+    @keyframes glitch {
+      0% { opacity: 1; transform: translate(0); }
+      10% { transform: translate(-2px, 2px); }
+      20% { opacity: 0.8; transform: translate(2px, -2px); }
+      30% { transform: translate(-2px, -2px); }
+      40% { opacity: 1; transform: translate(2px, 2px); }
+      50% { transform: translate(0); }
+      100% { transform: translate(0); }
+    }
+  </style>
+  <text x="50%" y="50%" text-anchor="middle" class="scramble">DIHAS SATHNINDU</text>
+</svg>
