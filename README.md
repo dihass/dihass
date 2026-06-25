@@ -1,28 +1,24 @@
 <div align="center">
 
-<!-- Mac OS Style Terminal Header -->
-<picture>
-  <img src="https://raw.githubusercontent.com/kyechan99/capsule-render/main/images/waving.svg" alt="waving header" width="0" height="0">
-</picture>
+<!-- Waving Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=100&section=header" width="100%" />
 
-<table width="100%" border="0" cellpadding="0" cellspacing="0">
-  <tr>
-    <td align="center" style="padding: 20px;">
-      <!-- Simulated Command Line Typing Animation -->
-      <a href="https://portfolio-website-nine-beta-40.vercel.app">
-        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=2F80ED&center=true&vCenter=true&width=800&lines=%3E_++Hello%2C+I'm+Dihas+Sathnindu;%3E_++Software+Engineer+%40+IFS;%3E_++Founder+%40+DarvinCode;%3E_++Building+Enterprise-Grade+Solutions" alt="Terminal Typing" />
-      </a>
-      <br>
-      <p><b>Software Engineer & Full-Stack Architect</b> bridging high-performance backend systems with sleek frontend experiences.</p>
-      
-      <a href="https://portfolio-website-nine-beta-40.vercel.app"><img src="https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-      <a href="mailto:dihas.sathnindu@gmail.com"><img src="https://img.shields.io/badge/Email-000?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-      <a href="https://linkedin.com/in/dihas-sathnindu"><img src="https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-    </td>
-  </tr>
-</table>
+<!-- Simulated Command Line Typing Animation -->
+<a href="https://portfolio-website-nine-beta-40.vercel.app">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=2F80ED&center=true&vCenter=true&width=800&lines=%3E_++Hello%2C+I'm+Dihas+Sathnindu;%3E_++Software+Engineer+%40+IFS;%3E_++Founder+%40+DarvinCode;%3E_++Building+Enterprise-Grade+Solutions" alt="Terminal Typing" />
+</a>
 
 <br>
+<p><b>Software Engineer & Full-Stack Architect</b> bridging high-performance backend systems with sleek frontend experiences.</p>
+
+<!-- Badges -->
+[![Portfolio](https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-website-nine-beta-40.vercel.app)
+[![Email](https://img.shields.io/badge/Email-000?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dihas.sathnindu@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dihas-sathnindu)
+
+<br><br>
+
+</div>
 
 <!-- THE BENTO BOX GRID -->
 <table width="100%" border="0" cellpadding="0" cellspacing="10">
@@ -73,14 +69,13 @@
   </tr>
 </table>
 
-</div>
-
 <br>
 
 <!-- ACTIVITY SNAKE -->
 <div align="center">
   <h3>Contributions</h3>
   <picture>
+    <!-- Note: This image will remain broken until you set up the GitHub Action to generate it -->
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dihass/dihass/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dihass/dihass/output/github-contribution-grid-snake.svg">
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/dihass/dihass/output/github-contribution-grid-snake.svg">
