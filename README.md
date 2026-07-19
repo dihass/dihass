@@ -99,13 +99,13 @@ const dihas: Engineer = {
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/dihass/LF-MSP">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=dihass&repo=LF-MSP&title_color=0d7f60&text_color=8b949e&icon_color=9fead3&bg_color=00000000&hide_border=true" width="100%" />
+        <img src="https://github-readme-stats.hackclub.dev/api/pin/?username=dihass&repo=LF-MSP&title_color=0d7f60&text_color=8b949e&icon_color=9fead3&bg_color=00000000&hide_border=true" width="100%" />
       </a>
       <p>🧠 <b>Sepsis prediction 6h before onset.</b> Two-layer LSTM fused with Bio_ClinicalBERT via a meta-learner. <b>AUROC 0.9283</b> on 26,607 MIMIC-IV ICU patients, with a strict leakage-free pipeline.</p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/dihass/WeatherDashboard">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=dihass&repo=WeatherDashboard&title_color=0d7f60&text_color=8b949e&icon_color=9fead3&bg_color=00000000&hide_border=true" width="100%" />
+        <img src="https://github-readme-stats.hackclub.dev/api/pin/?username=dihass&repo=WeatherDashboard&title_color=0d7f60&text_color=8b949e&icon_color=9fead3&bg_color=00000000&hide_border=true" width="100%" />
       </a>
       <p>🌦 <b>Native SwiftUI iOS weather explorer.</b> OpenWeather REST API with async/await, CoreLocation, MapKit, and SwiftData caching.</p>
     </td>
@@ -162,8 +162,8 @@ const dihas: Engineer = {
 <h2><code>~/stats</code></h2>
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=dihass&show_icons=true&include_all_commits=true&hide_border=true&title_color=0d7f60&text_color=8b949e&icon_color=9fead3&bg_color=00000000&rank_icon=github" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dihass&layout=compact&hide_border=true&langs_count=8&title_color=0d7f60&text_color=8b949e&bg_color=00000000" />
+  <img height="165" src="https://github-readme-stats.hackclub.dev/api?username=dihass&show_icons=true&include_all_commits=true&hide_border=true&title_color=0d7f60&text_color=8b949e&icon_color=9fead3&bg_color=00000000&rank_icon=github" />
+  <img height="165" src="https://github-readme-stats.hackclub.dev/api/top-langs/?username=dihass&layout=compact&hide_border=true&langs_count=8&title_color=0d7f60&text_color=8b949e&bg_color=00000000" />
 </div>
 
 <div align="center">
@@ -174,13 +174,6 @@ const dihas: Engineer = {
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=dihass&bg_color=00000000&color=9fead3&line=0d7f60&point=f9c840&area=true&area_color=0d7f60&hide_border=true" width="100%" />
-</div>
-
-<br>
-
-<!-- ========================= TROPHIES ========================= -->
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=dihass&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" width="100%" />
 </div>
 
 <br>
