@@ -94,20 +94,31 @@ const dihas: Engineer = {
 <!-- ========================= FEATURED BUILDS ========================= -->
 <h2><code>~/projects</code></h2>
 
-<!-- public repos: live pin cards -->
+<!-- custom cards (no external stats service — always renders) -->
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/dihass/LF-MSP">
-        <img src="https://github-readme-stats.hackclub.dev/api/pin/?username=dihass&repo=LF-MSP&title_color=0d7f60&text_color=8b949e&icon_color=9fead3&bg_color=00000000&hide_border=true" width="100%" />
-      </a>
-      <p>🧠 <b>Sepsis prediction 6h before onset.</b> Two-layer LSTM fused with Bio_ClinicalBERT via a meta-learner. <b>AUROC 0.9283</b> on 26,607 MIMIC-IV ICU patients, with a strict leakage-free pipeline.</p>
+      <h3>🧠 LF-MSP</h3>
+      <p><b>Sepsis prediction 6h before onset.</b> Two-layer LSTM fused with Bio_ClinicalBERT via a meta-learner. <b>AUROC 0.9283</b> on 26,607 MIMIC-IV ICU patients, with a strict leakage-free pipeline.</p>
+      <p>
+        <img src="https://img.shields.io/badge/PyTorch-1c1714?style=flat-square&logo=pytorch&logoColor=EE4C2C" />
+        <img src="https://img.shields.io/badge/Python-1c1714?style=flat-square&logo=python&logoColor=3776AB" />
+        <img src="https://img.shields.io/badge/LSTM-1c1714?style=flat-square&logoColor=9fead3" />
+        <img src="https://img.shields.io/badge/ClinicalBERT-1c1714?style=flat-square&logoColor=9fead3" />
+        <img src="https://img.shields.io/badge/MIMIC--IV-1c1714?style=flat-square&logoColor=9fead3" />
+      </p>
+      <a href="https://github.com/dihass/LF-MSP"><img src="https://img.shields.io/badge/Source-1c1714?style=for-the-badge&logo=github&logoColor=9fead3" /></a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/dihass/WeatherDashboard">
-        <img src="https://github-readme-stats.hackclub.dev/api/pin/?username=dihass&repo=WeatherDashboard&title_color=0d7f60&text_color=8b949e&icon_color=9fead3&bg_color=00000000&hide_border=true" width="100%" />
-      </a>
-      <p>🌦 <b>Native SwiftUI iOS weather explorer.</b> OpenWeather REST API with async/await, CoreLocation, MapKit, and SwiftData caching.</p>
+      <h3>🌦 WeatherDashboard</h3>
+      <p><b>Native SwiftUI iOS weather explorer.</b> OpenWeather REST API with async/await, CoreLocation, MapKit, and SwiftData caching.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Swift-1c1714?style=flat-square&logo=swift&logoColor=F05138" />
+        <img src="https://img.shields.io/badge/SwiftUI-1c1714?style=flat-square&logo=swift&logoColor=9fead3" />
+        <img src="https://img.shields.io/badge/MapKit-1c1714?style=flat-square&logo=apple&logoColor=ffffff" />
+        <img src="https://img.shields.io/badge/SwiftData-1c1714?style=flat-square&logo=apple&logoColor=ffffff" />
+      </p>
+      <a href="https://github.com/dihass/WeatherDashboard"><img src="https://img.shields.io/badge/Source-1c1714?style=for-the-badge&logo=github&logoColor=9fead3" /></a>
     </td>
   </tr>
 </table>
@@ -162,12 +173,7 @@ const dihas: Engineer = {
 <h2><code>~/stats</code></h2>
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.hackclub.dev/api?username=dihass&show_icons=true&include_all_commits=true&hide_border=true&title_color=0d7f60&text_color=8b949e&icon_color=9fead3&bg_color=00000000&rank_icon=github" />
-  <img height="165" src="https://github-readme-stats.hackclub.dev/api/top-langs/?username=dihass&layout=compact&hide_border=true&langs_count=8&title_color=0d7f60&text_color=8b949e&bg_color=00000000" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dihass&theme=transparent&hide_border=true&ring=0d7f60&fire=0d7f60&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=0d7f60&sideLabels=8b949e&dates=6e7681" width="65%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dihass&theme=transparent&hide_border=true&ring=0d7f60&fire=0d7f60&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=0d7f60&sideLabels=8b949e&dates=6e7681" width="75%" />
 </div>
 
 <br>
