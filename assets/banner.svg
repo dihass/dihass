@@ -1,0 +1,95 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" role="img" aria-label="Dihas Sathnindu - Software Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1c1714"/>
+      <stop offset="1" stop-color="#13100d"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.1" fill="#f9f5ef" opacity="0.035"/>
+    </pattern>
+    <path id="spark" d="M0 -12 C0 -5.4 -5.4 0 -12 0 C-5.4 0 0 5.4 0 12 C0 5.4 5.4 0 12 0 C5.4 0 0 -5.4 0 -12 Z"/>
+    <g id="ticker">
+      <text x="0" y="0" font-family="'Courier New', monospace" font-size="14" font-weight="700" letter-spacing="1">
+        <tspan fill="#bdb0a0">REACT</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">NEXT.JS</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">NODE.JS</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">TYPESCRIPT</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">C# / .NET</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">PYTHON</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">SWIFT</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">PYTORCH</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">PL/SQL</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">POSTGRESQL</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">REDIS</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">DOCKER</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">JAVA</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">SIGNALR</tspan><tspan fill="#9fead3"> ◦ </tspan>
+      </text>
+    </g>
+  </defs>
+
+  <!-- dark walnut paper -->
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#dots)"/>
+
+  <!-- window chrome header -->
+  <rect x="0" y="0" width="1200" height="42" fill="#261f1b"/>
+  <line x1="0" y1="42" x2="1200" y2="42" stroke="#3a322c" stroke-width="1.5"/>
+  <circle cx="32" cy="21" r="6" fill="#ff5f57"/>
+  <circle cx="54" cy="21" r="6" fill="#febc2e"/>
+  <circle cx="76" cy="21" r="6" fill="#28c840"/>
+  <text x="104" y="26" font-family="'Courier New', monospace" font-size="13" fill="#8a7d72">dihas-sathnindu.tsx</text>
+  <g transform="translate(1018,21)">
+    <circle cx="0" cy="0" r="4" fill="#28c840"><animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/></circle>
+    <text x="12" y="4.5" font-family="'Courier New', monospace" font-size="12" font-weight="700" letter-spacing="1.5" fill="#9fead3">AVAILABLE FOR WORK</text>
+  </g>
+
+  <!-- kicker -->
+  <text x="70" y="84" font-family="'Courier New', monospace" font-size="13" font-weight="700" letter-spacing="4" fill="#9fead3">HELLO, I'M A  →</text>
+
+  <!-- name -->
+  <text x="66" y="152" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="58" fill="#f9f5ef" letter-spacing="-1">Dihas Sathnindu<tspan fill="#9fead3">.</tspan></text>
+
+  <!-- role line -->
+  <text x="71" y="186" font-family="'Courier New', monospace" font-size="14" font-weight="700" letter-spacing="3">
+    <tspan fill="#bdb0a0">SOFTWARE ENGINEER</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">BACKEND</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">PL/SQL</tspan><tspan fill="#9fead3"> ◦ </tspan><tspan fill="#bdb0a0">AI RESEARCH</tspan>
+  </text>
+
+  <!-- sticker chips -->
+  <g font-family="'Courier New', monospace" font-size="12" font-weight="700" letter-spacing="1">
+    <g transform="translate(71,202) rotate(-3)">
+      <rect width="118" height="26" rx="6" fill="#f9c840"/>
+      <text x="14" y="17.5" fill="#7a4800">FIRST CLASS</text>
+    </g>
+    <g transform="translate(200,202) rotate(2)">
+      <rect width="74" height="26" rx="6" fill="#ffd0bc"/>
+      <text x="14" y="17.5" fill="#8b3010">ex-IFS</text>
+    </g>
+    <g transform="translate(286,202) rotate(-1.5)">
+      <rect width="184" height="26" rx="6" fill="#dce4ff"/>
+      <text x="14" y="17.5" fill="#3440c0">FOUNDER @ DARVINCODE</text>
+    </g>
+    <g transform="translate(482,202) rotate(1.5)">
+      <rect width="120" height="26" rx="6" fill="#9fead3"/>
+      <text x="14" y="17.5" fill="#0d4a38">COLOMBO, LK</text>
+    </g>
+  </g>
+
+  <!-- layered mint sparkle (right) -->
+  <g transform="translate(1058,148)">
+    <g>
+      <use xlink:href="#spark" fill="#0d7f60" transform="scale(3.1)" opacity="0.5"/>
+      <use xlink:href="#spark" fill="#9fead3" transform="scale(2.3)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="30s" repeatCount="indefinite"/>
+    </g>
+  </g>
+  <g transform="translate(1148,96)">
+    <use xlink:href="#spark" fill="#9fead3" transform="scale(0.85)">
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.4s" repeatCount="indefinite"/>
+    </use>
+  </g>
+  <g transform="translate(980,196)">
+    <use xlink:href="#spark" fill="#9fead3" transform="scale(0.7)">
+      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.1s" repeatCount="indefinite"/>
+    </use>
+  </g>
+
+  <!-- hairline -->
+  <line x1="0" y1="248" x2="1200" y2="248" stroke="#3a322c" stroke-width="1.5"/>
+
+  <!-- marquee (offset=1300 to cover the longer ticker) -->
+  <g transform="translate(0,278)">
+    <g>
+      <use xlink:href="#ticker" x="0"/>
+      <use xlink:href="#ticker" x="1300"/>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1300 0" dur="32s" repeatCount="indefinite"/>
+    </g>
+  </g>
+</svg>
